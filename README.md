@@ -26,8 +26,8 @@ This project applies a **Deep Convolutional Generative Adversarial Network (DCGA
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/skin-cancer-cnn.git
-   cd skin-cancer-cnn
+   git clone https://github.com/hardknock-dot/GANs-in-Biomedical-Informatics
+   cd GANs-in-Biomedical-Informatics
 2. **Install Required Libraries**:
    ```bash
    pip install -r requirements.txt

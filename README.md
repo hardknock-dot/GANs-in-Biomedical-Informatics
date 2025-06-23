@@ -1,7 +1,6 @@
-# Biomedical-Informatics-using-GANs
-# 🧠 Skin Cancer Classification using CNN (HAM10000 Dataset)
+# 🧬 Biomedical Informatics using Deep Convolutional GAN (DCGAN)
 
-This project implements a deep learning-based approach for classifying types of skin lesions using the **HAM10000** dataset. The model leverages **Convolutional Neural Networks (CNNs)** built with **TensorFlow** and **Keras**, aiming to assist in early detection of skin cancer.
+This project applies a **Deep Convolutional Generative Adversarial Network (DCGAN)** to biomedical imaging data to explore how synthetic medical images can be generated for use in research, augmentation, and machine learning applications. It falls under the domain of **Biomedical Informatics**, where AI is used to analyze and generate clinical data representations.
 
 ---
 
@@ -55,12 +54,12 @@ This project implements a deep learning-based approach for classifying types of 
    1. Open Project_Notebook.ipynb in Jupyter Notebook or Google Colab.
 
    2. Execute each cell in sequence:
-      - ✅ Import Libraries
-      - ✅ Dataset Setup & Extraction
-      - ✅ Preprocessing Images & Labels
-      - ✅ Model Building (CNN with Keras)
-      - ✅ Model Training & Evaluation
-      - ✅ Visualizations and Metrics
+      - ✅ Import libraries and setup environment
+      - ✅ Dataset loading and preprocessing
+      - ✅ Build DCGAN architecture
+      - ✅ Train Generator and Discriminator
+      - ✅ Visualize generated medical images
+      - ✅ Evaluate convergence and loss curves
 
 ## 🚀 Tech Stack
 - Python 3.7+
@@ -73,11 +72,15 @@ This project implements a deep learning-based approach for classifying types of 
 - Scikit-learn
 - Google Colab (for GPU acceleration)
 
+## 🧠 Model Used
+- Generative Adversarial Network (GAN)
+- Deep Convolutional GAN (DCGAN) architecture:
+   - Convolutional layers for both Generator and Discriminator
+   - Batch normalization, LeakyReLU, and Tanh activations
+   - Trained on biomedical image dataset (e.g., HAM10000)
+
 ## 📊 Results
-- Training Accuracy     : ~92%
-- Validation Accuracy   : ~88%
-- Evaluation Metrics:
-    - 📉 Loss Curve (via Matplotlib)
-    - 📈 Accuracy Plot
-    - 🧮 Confusion Matrix
-    - 🖼️ Sample Image Predictions
+- Generator & Discriminator Loss Curves
+- Generated Biomedical Images (e.g., skin lesions)
+- Visual Comparison between Real and Fake Samples
+
